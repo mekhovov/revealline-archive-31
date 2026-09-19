@@ -1,2 +1,13 @@
-# revealline-archive-31
-Immutable RevealLine releases retained for historical play and comparison.
+# RevealLine Archive31: original v0.63.0
+
+This preparation proposes a new archive for the exact original published v0.63.0 distribution. Repository creation, reviewed infrastructure merge, hosted extraction/deployment, public-byte verification and archive-native acceptance remain pending. The proposed URL is not a verified deployment. Main v0.63.0 public closure retains priority.
+
+Source `3e47f60b9f9b4c5088410536d649ff595b2667eb`, tree `fd0138c0e5f71b8b25368878c1948f5bef14255d`, annotated tag `8d64aa0959cd0560ea917bc8fad8bf02d9892eb0`, original Release `391999066`. Nine original release descriptors and four byte-identical metadata bodies are pinned in `input-authority.json`. The source lock retains the accepted archive30 extractor tooling commit `a13ab970222498d7c5fa7f62f9fc04fe436979d5` and its exact hash. No source TAR or historical rebuild is used.
+
+Expected inventory: **711 rows / 313,557,913 bytes**, comprising 708 original release rows / 313,556,519 bytes plus the root index, unchanged release-explorer bridge and hidden .nojekyll marker. This new archive has zero prior accepted paths, zero preserved prior rows and zero changed historical paths. Budget remains 800,000,000 bytes, leaving 486,442,087 bytes. Archive30’s two cohorts already require 627,086,405 bytes; adding this cohort would require at least 940,642,924 bytes, exceeding its unchanged limit. Existing archive30 is untouched.
+
+The main-only workflow explicitly fetches its complete locked tag set (`v0.63.0`), verifies source/tag identities, uses the original ZIP and rehashes every artifact file including hidden files. The 3 GiB hosted free-space guard, 20,000-row limit and non-cancelling concurrency remain. Production prepare/verify helpers and the release-explorer bridge are byte-identical to the accepted donor; only existing committed-metadata fixture values change.
+
+No local tests or payload build ran during this preparation. Root must run the retained finite fixture checks, preserve real hosted run/deployment and small receipts, verify the full public inventory with unchanged authorities, and exercise scoped archive keyboard entry, play, Pause/Resume/focus and explorer return. Source qualification and main acceptance do not establish archive acceptance. Physical-input, offline/audio and broad cross-mode limitations remain separate; this archive cannot repair or reinterpret an immutable game edition.
+
+Only after independent archive acceptance and qualification of a future current release may the publisher move canonical v0.63.0 allocation here. Do not change the current selector merely because this preparation or its workflow exists.
